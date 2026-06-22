@@ -6,7 +6,8 @@ from reportlab.platypus import SimpleDocTemplate, Paragraph
 from reportlab.lib.styles import getSampleStyleSheet
 
 import os
-TOKEN = os.getenv("8015294309:AAG2xLyAjXzinLT_Spm0xFl4YOMINkS6a90")
+
+TOKEN = os.getenv("BOT_TOKEN")
 
 bot = telebot.TeleBot(TOKEN)
 
